@@ -31,12 +31,12 @@ int main() {
 
         std::cout << "intersection point: " << schnitt.x() << ", " << schnitt.y() << ", " << schnitt.z() << std::endl;
 
-        if (G.enthaelt(schnitt)){
-          std::cout << "test didn't work!" << std::endl;
-        }
-        else{
-          std::cout << "test did work!" << std::endl;
-        }
+        // if (G.enthaelt(schnitt)){
+        //   std::cout << "test didn't work!" << std::endl;
+        // }
+        // else{
+        //   std::cout << "test did work!" << std::endl;
+        // }
         // Gib dem Terminal eine Null zurueck: "Alles klar, keine Probleme gehabt!"
         return 0;
 
