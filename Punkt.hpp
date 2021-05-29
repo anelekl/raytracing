@@ -53,7 +53,7 @@ point operator*(const double &a, const point &b) {
   return point(a * b.x(),a * b.y(),a * b.z());
 }
 
-// So druckt man pointe aus
+// So druckt man punkte aus
 std::ostream& operator<<(std::ostream& os, const point& p) {
     os << p.x() << "," << p.y() << "," << p.z();
     return os;
